@@ -16,7 +16,7 @@ The following steps were taken to process the data:
 2. If two photons have the same time bin and the relative delay is less than the pulse width, then they must be coming from the same pulse.
 3. The time delay of each time photodetection was calculated.
 4. The data for each team was synchronized using the method discussed in class. The value of Trep was determined such that the delay Vs bin should be a horizontal line with a finite width.
-5. The synchronized data for each team was saved as `Data-TeamX-Synchronized.txt`, where X is the team number.
+5. The synchronized data for each team was saved as `Team3_data.txt`, where X is the team number.
 6. The number of bins which are empty, one photon, two photons, and three photons was counted for the synchronized data.
 7. The histogram of the probabilities was plotted.
 
@@ -27,6 +27,8 @@ The following files are included in the project:
 - `Team3_data.txt`: The unsynchronized data from the time tagger.
 - `README.md`: This file.
 - `main_code.m`: Main code of the project. All functions of the project can be reached using this file.
+
+Note: `data.txt` is not included in the project repository due to its very large size.
 
 ## Instructions
 
