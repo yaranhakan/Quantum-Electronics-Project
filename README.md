@@ -6,7 +6,7 @@ Quantifying Photon Statistics of a Pulsed LASER
 
 The goal of this project is to quantify photon statistics of a pulsed LASER using data obtained from time-stamped photodetections of single photon detectors (APDs). The data was obtained from the experiment using a pulsed LASER which generates light pulses of temporal width 10 ns every 100 ns. The pulses were attenuated using neutral density filter and coupled into a 1X4 fiber-based beam splitter. The output of each end of the fiber was connected to APDs which are "ON-OFF" type detectors.
 
-The unsynchronized data from the time tagger is provided in the file `10ns_1E6_10SEC_Formatted.txt`. The data is divided into teams, and each team is assigned a different time range to work with. Each team further splits the data into two halves and divides the first half into time bins of size Trep.
+The unsynchronized data from the time tagger is provided in the file `data.txt`. The data is divided into teams, and each team is assigned a different time range to work with. Each team further splits the data into two halves and divides the first half into time bins of size Trep.
 
 ## Data Processing
 
@@ -24,9 +24,16 @@ The following steps were taken to process the data:
 
 The following files are included in the project:
 
-- `10ns_1E6_10SEC_Formatted.txt`: The unsynchronized data from the time tagger.
-- `Data-TeamX-Synchronized.txt`: The synchronized data for each team.
+- `Team3_data.txt`: The unsynchronized data from the time tagger.
 - `README.md`: This file.
+- `main_code.m`: Main code of the project. All functions of the project can be reached using this file.
+
+## Instructions
+
+- Extract all files in a folder
+- Run 'main_code.m'. You will obtain the deliverables for part I (time 4-5s) from the graphs and the command line.
+- In the command window, enter 'task5(Tp_length)' to get the project deliverables for part II (time 5-6s)
+- All adjustments for part I can be made on the first section of 'main_code.m'
 
 
 ## Credits
