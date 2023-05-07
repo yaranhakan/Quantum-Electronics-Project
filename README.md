@@ -1,3 +1,9 @@
+Author: Omer Hakan Yaran
+Syracuse University
+
+Special Thanks:
+Professor Pankaj Jha, Syracuse University
+
 # Quantum Electronics Final Project
 
 Quantifying Photon Statistics of a Pulsed LASER
