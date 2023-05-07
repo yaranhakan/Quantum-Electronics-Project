@@ -1,7 +1,7 @@
 Author: Omer Hakan Yaran
 Syracuse University
 
-Special Thanks:
+Instructor:
 Professor Pankaj Jha, Syracuse University
 
 # Quantum Electronics Final Project
