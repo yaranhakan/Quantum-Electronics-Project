@@ -80,6 +80,3 @@ fprintf('Tstart = %d ps ps\n', Td_lower_lim);
 
 % REMOVE THE COMMENT OPERATOR TO CALCULATE T = 5-6
 % task5(Tp_length)
-
-
-% 600 lines of code in one week. uh...
